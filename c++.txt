@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main() {
+    string a;
+    float x;float y;float z;
+    cout << "Hello world!"<<endl;
+    cout<<"Enter no 1:";
+    cin>>x;
+    cout<<"Enter no 2:";
+    cin>>y;
+    cout<<"Enter what you want from us:";
+    cin>>a;
+    if(a=="A" || a=="a"){
+        z=x+y;
+    }
+    else if(a=="S"||a=="s"){
+        z=x-y;
+    }
+    else if(a=="M"||a=="m"){
+     z=x*y;   
+    }
+    else if(a=="D"||a=="d"){
+     z=x/y;   
+    }
+    else
+    {
+        cout<<"ok";
+    }
+    cout<<z<<endl;
+    return 0;
+}
